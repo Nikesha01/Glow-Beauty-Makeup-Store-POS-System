@@ -37,3 +37,10 @@ body{
 .sidebar .nav-link.active {
     background-color: #a66ab8;
 }
+
+.sidebar-bottom {
+    color: #ead9ef;
+    position: absolute;
+    bottom: 20px;
+    font-size: 13px;
+}
