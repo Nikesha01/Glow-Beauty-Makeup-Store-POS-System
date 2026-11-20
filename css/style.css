@@ -22,3 +22,18 @@ body{
     font-weight: bold;
 }
 
+.sidebar .nav-link {
+    color: white;
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sidebar .nav-link:hover{
+    background-color: #493451;
+}
+
+.sidebar .nav-link.active {
+    background-color: #a66ab8;
+}
