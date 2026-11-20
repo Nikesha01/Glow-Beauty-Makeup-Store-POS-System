@@ -64,3 +64,40 @@ body{
     padding: 12px 18px;
     border-radius: 10px;
 }
+
+.section-title {
+    color: #5b356e;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    padding: 12px;
+    border: 1px solid #e2cce9;
+    border-radius: 10px;
+}
+
+.search-box:focus {
+    border-color: #a66ab8;
+    box-shadow: 0 0 5px #d8b5e4;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-btn {
+    background-color: #f0e1f4;
+    color: #683d7c;
+    border-radius: 20px;
+    padding: 8px 17px;
+    border: none;
+}
+
+.category-btn:hover,
+
+.category-btn.active {
+    background-color: #8e55a4;
+    color: white;
+}
