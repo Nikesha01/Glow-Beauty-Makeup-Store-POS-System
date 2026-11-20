@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aliceblue;
+    font-family: Arial, sans-serif;
+    color: #493451;
+}
+
+.sidebar{
+    background-color: #5b356e;
+    min-height: 100vh;
+    padding: 25px 15px;
+    position: relative;
+}
+
+.logo{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
